@@ -1,0 +1,186 @@
+body{
+font-family: Arial;
+margin:0;
+background:#0f172a;
+color:white;
+}
+
+header{
+text-align:center;
+padding:40px;
+background:#1e293b;
+}
+
+nav{
+display:flex;
+justify-content:center;
+gap:30px;
+background:#020617;
+padding:15px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+section{
+padding:60px;
+max-width:900px;
+margin:auto;
+}
+
+h2{
+color:#38bdf8;
+}
+
+.project{
+background:#1e293b;
+padding:20px;
+margin-top:20px;
+border-radius:10px;
+}
+
+.project a{
+color:#38bdf8;
+text-decoration:none;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#020617;
+}
+
+.resume-btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 25px;
+background:#38bdf8;
+color:black;
+font-weight:bold;
+border-radius:8px;
+text-decoration:none;
+transition:0.3s;
+}
+
+.resume-btn:hover{
+background:white;
+transform:scale(1.05);
+}
+
+.projects-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+margin-top:30px;
+}
+
+.project-card{
+background:#1e293b;
+padding:25px;
+border-radius:12px;
+transition:0.3s;
+box-shadow:0 0 10px rgba(0,0,0,0.3);
+}
+
+.project-card:hover{
+transform:translateY(-10px);
+box-shadow:0 10px 20px rgba(0,0,0,0.5);
+}
+
+.project-card h3{
+color:#38bdf8;
+}
+
+.project-card a{
+display:inline-block;
+margin-top:15px;
+color:#38bdf8;
+text-decoration:none;
+font-weight:bold;
+}
+
+#particles-js{
+position:fixed;
+width:100%;
+height:100%;
+top:0;
+left:0;
+z-index:-1;
+background:#020617;
+}
+
+.skills-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(120px,1fr));
+gap:25px;
+margin-top:30px;
+text-align:center;
+}
+
+.skill{
+background:#1e293b;
+padding:20px;
+border-radius:12px;
+transition:0.3s;
+}
+
+.skill:hover{
+transform:translateY(-8px);
+}
+
+.skill i{
+font-size:40px;
+color:#38bdf8;
+}
+
+.skill p{
+margin-top:10px;
+font-weight:bold;
+}
+
+.contact-links a{
+    display: inline-block;
+    margin: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #333;
+    transition: 0.3s;
+}
+
+.contact-links a i{
+    margin-right: 8px;
+}
+
+.contact-links a:hover{
+    color: #0077b5;
+}
+
+.cert-list{
+  max-width:700px;
+  margin:auto;
+}
+
+.cert-item{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  margin:12px 0;
+  font-size:18px;
+}
+
+.cert-item i{
+  color:gold;
+  font-size:22px;
+}
+
+.cert-item:hover i{
+  transform:scale(1.2);
+  transition:0.3s;
+}
+
+html{
+  scroll-behavior:smooth;
+}
